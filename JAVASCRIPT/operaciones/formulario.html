@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario operaciones basicas</title>
+    <script src="operaciones.js"></script>
+</head>
+<body>
+
+    <fieldset>
+
+        <legend>Suma</legend>
+
+        <p>
+            
+            <label>A</label>
+            <input id="varAsuma" type="number" name="varA" placeholder="Ingrese un valor" required>
+        </p>
+
+        <p>
+            <label>B</label>
+            <input id="varBsuma" type="number" name="varB" placeholder="Ingrese un valor" required">
+        </p>
+
+        <p id="resultadosuma"></p>
+        
+        <button type="button" onclick="suma()">Resultado</button>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Resta</legend>
+
+        <p>
+            
+            <label>A</label>
+            <input id="varAresta" type="number" name="varA" placeholder="Ingrese un valor" required>
+        </p>
+
+        <p>
+            <label>B</label>
+            <input id="varBresta" type="number" name="varB" placeholder="Ingrese un valor" required">
+        </p>
+
+        <p id="resultadoresta"></p>
+        
+        <button type="button" onclick="resta()">Resultado</button>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>multiplicacion</legend>
+
+        <p>
+            
+            <label>A</label>
+            <input id="varAmultiplicacion" type="number" name="varA" placeholder="Ingrese un valor" required>
+        </p>
+
+        <p>
+            <label>B</label>
+            <input id="varBmultiplicacion" type="number" name="varB" placeholder="Ingrese un valor" required">
+        </p>
+
+        <p id="resultadomultiplicacion"></p>
+        
+        <button type="button" onclick="multiplicacion()">Resultado</button>
+
+    </fieldset>
+    
+    <fieldset>
+
+        <legend>division</legend>
+
+        <p>
+            
+            <label>A</label>
+            <input id="varAdivision" type="number" name="varA" placeholder="Ingrese un valor" required>
+        </p>
+
+        <p>
+            <label>B</label>
+            <input id="varBdivision" type="number" name="varB" placeholder="Ingrese un valor" required">
+        </p>
+
+        <p id="resultadodivision"></p>
+        
+        <button type="button" onclick="division()">Resultado</button>
+
+    </fieldset>
+</body>
+</html>

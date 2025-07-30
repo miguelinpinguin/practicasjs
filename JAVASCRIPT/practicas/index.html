@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<center><h2 onclick="document.getElementById('myImage').src='img/cartagena.jpg'">Cambio de imagenes con java</h2>
+
+<p id="demo">JavaScript can change HTML attribute values and styles.</p>
+
+<img id="myImage" src="img/cartagena.jpg" style="width:350px">
+
+</center>
+
+<br>
+
+<fieldset style="width: cover; border: 2px solid black; padding: 10px;"> opciones:
+
+<button onclick="document.getElementById('myImage').src='img/playa.webp'">ver playa</button>
+
+<button onclick="document.getElementById('myImage').src='img/ciudad.jpg'">ver ciudad</button>
+
+<button onclick="document.getElementById('demo').style.fontSize='35px'">Cambiar parrafos</button>
+
+<button><a href="index.html" style="text-decoration: none;">Recargar pagina</a></button>
+
+<button id="ocultar" onclick="document.getElementById('myImage').style.display='none',this.style.display='none', document.getElementById('mostrar').style.display='block' ">ocultar imagen</button>
+
+<button id="mostrar" onclick="document.getElementById('myImage').style.display='block',this.style.display='none', document.getElementById('ocultar').style.display='block' ">mostrar imagen</button>
+
+</fieldset>
+
+</body>
+</html>

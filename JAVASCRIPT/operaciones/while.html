@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function contadorwhile(){
+            let i=0, cadena = "";
+            while(i <=10000){
+                cadena = cadena + i + ",";
+                console.log(i + ",")
+                i++;
+            }
+            document.getElementById("contadornumero").innerHTML = cadena;
+        }
+    </script>
+
+</head>
+<body>
+    
+    <h1>numeros al 10000 con while</h1>
+    <p id="contadornumero"></p>
+    <button type="button" onclick="contadorwhile()">contar</button>
+</body>
+</html>

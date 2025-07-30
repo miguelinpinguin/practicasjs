@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/switch.js"></script>
+</head>
+<body>
+    <h1>switch con javascript</h1>
+    <p>
+    crearemos un menu de servicio al cliente para los estudiantes de la UDEA
+    </p>
+    <fieldset>
+        <legend>opcines</legend>
+        <p>escriba en el campo la opcion que necesite</p>
+        <ul>
+            <li>1. informacion general</li>
+            <li>2. PQRS</li>
+            <li>3. Comunicarme con un asesor</li>
+
+            <label>Escriba la opcion</label>
+            <input type="number" id="opcion" placeholder="escriba su opcion" />
+            <button onclick="opcionesUdea()" type="button">Enviar</button>
+        </ul>
+    </fieldset>
+    <p id="respuesta"></p>
+</body>
+</html>
